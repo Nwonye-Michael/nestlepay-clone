@@ -1,0 +1,18 @@
+.confirmation {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.confirmation-content h2 {
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .confirmation-content p {
+    margin: auto;
+  }
+}

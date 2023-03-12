@@ -1,13 +1,13 @@
 import React from "react"
 import "./Footer.css"
-import facebook from "../../images/FACEBOOK.png"
-import twitter from "../../images/TWITTER.png"
-import instagram from "../../images/INSTAGRAM.png"
-import linkedin from "../../images/LINKEDIN.png"
+import facebook from "../../assets/images/FACEBOOK.png"
+import twitter from "../../assets/images/TWITTER.png"
+import instagram from "../../assets/images/INSTAGRAM.png"
+import linkedin from "../../assets/images/LINKEDIN.png"
 
 function Footer() {
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className="footer__icons">
         <img src={facebook} alt="facebook" />
         <img src={twitter} alt="twitter" />
@@ -16,7 +16,7 @@ function Footer() {
       </div>
       <p>help@nestlypay.co</p>
       <p>© 2022. NestlyPay Limited All rights reserved</p>
-    </div>
+    </footer>
   )
 }
 

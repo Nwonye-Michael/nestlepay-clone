@@ -1,13 +1,16 @@
 import React from "react"
+import { useNavigate } from "react-router-dom"
 import Header from "../../Header/Header"
 import "./LandingPage.css"
-import frameImg from "../../../images/FrameImg1.png"
-import righticon from "../../../images/rightimage.png"
 import SimpleSlider from "../../../UI/Slider/SimpleSlider"
-import bottomimg1 from "../../../images/bottomsection1.png"
-import bottomimg2 from "../../../images/bottomsection2.png"
+import frameImg from "../../../assets/images/FrameImg1.png"
+import righticon from "../../../assets/images/rightimage.png"
+
+import bottomimg1 from "../../../assets/images/bottomsection1.png"
+import bottomimg2 from "../../../assets/images/bottomsection2.png"
 
 function LandingPage() {
+  const navigate = useNavigate()
   return (
     <div className="landingpage">
       <h1 className="landingpage__header">
@@ -23,7 +26,16 @@ function LandingPage() {
           <span>get paid faster.</span>
         </div>
       </div>
-      <button className="create__btn">Create free Invoice</button>
+      <button
+        className="create__btn"
+        onClick={() => {
+          //  <Route path="/" element={<Navigate to="/home" />}\
+
+          navigate("/free")
+        }}
+      >
+        Create free Invoice
+      </button>
       <img src={frameImg} alt="frameimg1" className="frame__img" />
       <div className="h1__content">
         <p>

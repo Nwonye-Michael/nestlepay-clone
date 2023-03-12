@@ -3,16 +3,17 @@ import "./slick.css"
 import "./slick-theme.css"
 import "./SimpleSlider.css"
 
-import img1 from "../../images/Sliderphoneimg1.png"
-import img2 from "../../images/Sliderphoneimg2.png"
-import img3 from "../../images/Sliderphoneimg3.png"
-import img4 from "../../images/Sliderphoneimg4.png"
-import img5 from "../../images/Sliderphoneimg5.png"
-import img6 from "../../images/Sliderphoneimg6.png"
-import img7 from "../../images/Sliderphoneimg7.png"
-import img8 from "../../images/Sliderphoneimg8.png"
-import img9 from "../../images/Sliderphoneimg9.png"
-import img10 from "../../images/Sliderphoneimg10.png"
+import img1 from "../../assets/images/Sliderphoneimg1.png"
+
+import img2 from "../../assets/images/Sliderphoneimg2.png"
+import img3 from "../../assets/images/Sliderphoneimg3.png"
+import img4 from "../../assets/images/Sliderphoneimg4.png"
+import img5 from "../../assets/images/Sliderphoneimg5.png"
+import img6 from "../../assets/images/Sliderphoneimg6.png"
+import img7 from "../../assets/images/Sliderphoneimg7.png"
+import img8 from "../../assets/images/Sliderphoneimg8.png"
+import img9 from "../../assets/images/Sliderphoneimg9.png"
+import img10 from "../../assets/images/Sliderphoneimg10.png"
 
 import Slider from "react-slick"
 
@@ -25,7 +26,7 @@ function SimpleSlider() {
     initialSlide: 0,
     slidesToScroll: 1,
     autoplaySpeed: 3000,
-    autoplay: true,
+    // autoplay: true,
   }
 
   const sliderInfo = [
