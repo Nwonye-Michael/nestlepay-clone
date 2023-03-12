@@ -26,7 +26,7 @@ function SimpleSlider() {
     initialSlide: 0,
     slidesToScroll: 1,
     autoplaySpeed: 3000,
-    // autoplay: true,
+ autoplay: true,
   }
 
   const sliderInfo = [
